@@ -1,0 +1,70 @@
+{
+  "n_orders": 10678,
+  "n_days": 36,
+  "n_train_orders": 8107,
+  "n_test_orders": 2571,
+  "breach_rate_train": 0.1173,
+  "breach_rate_test": 0.1486,
+  "auc_logistic": 0.9655,
+  "auc_queue_per_picker_only": 0.9125,
+  "auc_gradient_boosting_reference": 0.9722,
+  "brier_logistic": 0.0366,
+  "brier_always_predict_base_rate": 0.1275,
+  "log_loss_logistic": 0.1359,
+  "calibration": [
+    {
+      "predicted": 0.0,
+      "observed": 0.0,
+      "n": 322
+    },
+    {
+      "predicted": 0.0,
+      "observed": 0.0,
+      "n": 321
+    },
+    {
+      "predicted": 0.0009,
+      "observed": 0.0,
+      "n": 321
+    },
+    {
+      "predicted": 0.0204,
+      "observed": 0.0062,
+      "n": 322
+    },
+    {
+      "predicted": 0.0553,
+      "observed": 0.0467,
+      "n": 321
+    },
+    {
+      "predicted": 0.0765,
+      "observed": 0.081,
+      "n": 321
+    },
+    {
+      "predicted": 0.2609,
+      "observed": 0.0935,
+      "n": 321
+    },
+    {
+      "predicted": 0.8896,
+      "observed": 0.9596,
+      "n": 322
+    }
+  ],
+  "standardized_coefficients": {
+    "queue_per_picker": 1.4221,
+    "items": 0.0498,
+    "distance_km": 0.2425,
+    "riders_free": -4.3075,
+    "is_peak": -0.3176
+  },
+  "features": [
+    "queue_per_picker",
+    "items",
+    "distance_km",
+    "riders_free",
+    "is_peak"
+  ]
+}
